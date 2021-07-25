@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--checkableBehavior single will make it chose only one option at a time-->
+    <group android:checkableBehavior="single">
+
+        <!--now we gonna add items to the menu -->
+
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/ic_baseline_chat_24"
+            android:title="Chat"></item>
+        <item
+            android:id="@+id/email"
+            android:icon="@drawable/ic_baseline_email_24"
+            android:title="Email"></item>
+
+        <item
+            android:id="@+id/user"
+            android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+            android:title="User"></item>
+
+
+    </group>
+    <item android:title="Communicate">
+        <!--no checkable behaviour because it will directly act no persistance.-->
+        <menu>
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/ic_round_send_24"
+                android:title="Send"></item>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share"></item>
+        </menu>
+    </item>
+</menu>
