@@ -19,12 +19,12 @@
         android:padding="10dp"
         android:text="Codes from shadab"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/black"></TextView>
+        android:textColor="@color/white"></TextView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="shadabsheikh07@gmail.com"
-        android:textColor="@color/black"></TextView>
+        android:textColor="@color/white"></TextView>
 
 </LinearLayout>
