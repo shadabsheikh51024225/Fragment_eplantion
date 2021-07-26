@@ -52,10 +52,10 @@ public class Main1Activity extends AppCompatActivity implements NavigationView.O
                         new User_fragment()).commit();
                 break;
             case R.id.share:
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Share", Toast.LENGTH_LONG).show();
                 break;
             case R.id.send:
-                Toast.makeText(this, "Send", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Send", Toast.LENGTH_LONG).show();
                 break;
         }
         drawer.closeDrawer(GravityCompat.START);
